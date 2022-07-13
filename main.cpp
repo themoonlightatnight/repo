@@ -1,7 +1,9 @@
 #include <iostream>
-
+#include "camera.h"
 int main()
 {
-	std::cout <<"hello world";
+	Camera2D camera;
+	camera.init(5,18);
+	camera.printPos();
 	return 0;
 }
