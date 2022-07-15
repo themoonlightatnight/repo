@@ -1,6 +1,6 @@
 #pragma once
-#include <SDL/SDL.h>
-#include <GL/glew.h>
+#include "../SDL2/SDL.h"
+#include "../GL/gl.h"
 #include <string>
 namespace Bengine {
     enum WindowFlags { INVISIBLE = 0x1, FULLSCREEN = 0x2, BORDERLESS = 0x4, RESIZEABLE = 0x8
