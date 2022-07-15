@@ -19,5 +19,6 @@ glewInit();*/
                                        300, 300, 0);
     while (1)
         ;
+//nothing here
 return 0;
 }
