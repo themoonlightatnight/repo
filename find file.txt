@@ -1,0 +1,3 @@
+find . -name '*.xml' : match sensitive case (uppercase, lowercase)
+
+find . -iname '*.xml' : insensitive case (both: uppercase, lowercase)
